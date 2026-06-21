@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automata>
+  <automaton id="1">
+    <states>
+      <state id="q0" start="true"  accepting="false"/>
+      <state id="q1" start="false" accepting="false"/>
+      <state id="q2" start="false" accepting="false"/>
+      <state id="q3" start="false" accepting="true"/>
+      <state id="q4" start="false" accepting="true"/>
+    </states>
+    <transitions>
+      <transition from="q0" symbol=""  to="q1"/>
+      <transition from="q0" symbol=""  to="q2"/>
+      <transition from="q1" symbol="a" to="q3"/>
+      <transition from="q2" symbol="b" to="q4"/>
+    </transitions>
+  </automaton>
+</automata>
